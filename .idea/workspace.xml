@@ -38,6 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE": "left",
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "334",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE": "right",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "576",
     "WebServerToolWindowFactoryState": "false",
@@ -47,11 +48,23 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PostgreSQL"
+    ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GridLayoutManagerIntelliJ">
     <configuration name="GridLayoutManagerIntelliJ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GridLayoutManagerIntelliJ" />
+      <module name="LayoutManagement" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
       <module name="LayoutManagement" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -60,6 +73,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.GridLayoutManagerIntelliJ" />
+        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677125204134</updated>
-      <workItem from="1677125206543" duration="2994000" />
+      <workItem from="1677125206543" duration="9035000" />
     </task>
     <servers />
   </component>

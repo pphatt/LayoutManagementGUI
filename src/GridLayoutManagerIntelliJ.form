@@ -3,7 +3,7 @@
   <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="538" height="698"/>
+      <xy x="20" y="20" width="538" height="723"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -29,7 +29,7 @@
               <text value="Register"/>
             </properties>
           </component>
-          <grid id="30439" layout-manager="GridLayoutManager" row-count="9" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="30439" layout-manager="GridLayoutManager" row-count="10" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
@@ -49,13 +49,13 @@
                   <background color="-15329512"/>
                   <foreground color="-15329512"/>
                 </properties>
-                <border type="line" title="First Name">
+                <border type="line" title="First Name *">
                   <font/>
                   <title-color color="-1"/>
                   <color color="-1"/>
                 </border>
                 <children>
-                  <component id="e7f74" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                  <component id="e7f74" class="javax.swing.JTextField" binding="firstNameField">
                     <constraints>
                       <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                         <preferred-size width="500" height="-1"/>
@@ -78,13 +78,13 @@
                   <background color="-15329512"/>
                   <foreground color="-15329512"/>
                 </properties>
-                <border type="line" title="Last Name">
+                <border type="line" title="Last Name *">
                   <font/>
                   <title-color color="-1"/>
                   <color color="-1"/>
                 </border>
                 <children>
-                  <component id="162e6" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+                  <component id="162e6" class="javax.swing.JTextField" binding="lastNameField">
                     <constraints>
                       <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                         <preferred-size width="500" height="-1"/>
@@ -107,13 +107,13 @@
                   <background color="-15329512"/>
                   <foreground color="-15329512"/>
                 </properties>
-                <border type="line" title="User Account">
+                <border type="line" title="User Account *">
                   <font/>
                   <title-color color="-1"/>
                   <color color="-1"/>
                 </border>
                 <children>
-                  <component id="b8635" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+                  <component id="b8635" class="javax.swing.JTextField" binding="userAccountField">
                     <constraints>
                       <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                         <preferred-size width="500" height="-1"/>
@@ -136,12 +136,12 @@
                   <background color="-15329512"/>
                   <foreground color="-15329512"/>
                 </properties>
-                <border type="line" title="Password">
+                <border type="line" title="Password *">
                   <title-color color="-1"/>
                   <color color="-1"/>
                 </border>
                 <children>
-                  <component id="ec58a" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+                  <component id="ec58a" class="javax.swing.JTextField" binding="passwordField">
                     <constraints>
                       <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                         <preferred-size width="500" height="-1"/>
@@ -164,13 +164,13 @@
                   <background color="-15329512"/>
                   <foreground color="-1"/>
                 </properties>
-                <border type="line" title="Address (Optional)">
+                <border type="line" title="Address">
                   <font/>
                   <title-color color="-1"/>
                   <color color="-1"/>
                 </border>
                 <children>
-                  <component id="dad48" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+                  <component id="dad48" class="javax.swing.JTextArea" binding="addressField">
                     <constraints>
                       <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
                         <preferred-size width="150" height="50"/>
@@ -197,12 +197,12 @@
                   <background color="-15329512"/>
                   <foreground color="-15329512"/>
                 </properties>
-                <border type="line" title="Sex">
+                <border type="line" title="Sex *">
                   <title-color color="-1"/>
                   <color color="-1"/>
                 </border>
                 <children>
-                  <component id="cd05c" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+                  <component id="cd05c" class="javax.swing.JComboBox" binding="sexComboBox">
                     <constraints>
                       <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -226,13 +226,13 @@
                   <background color="-15329512"/>
                   <foreground color="-15329512"/>
                 </properties>
-                <border type="line" title="PhoneNumber">
+                <border type="line" title="Phone Number *">
                   <font/>
                   <title-color color="-1"/>
                   <color color="-1"/>
                 </border>
                 <children>
-                  <component id="fae51" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+                  <component id="fae51" class="javax.swing.JTextField" binding="phoneNumberField">
                     <constraints>
                       <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                         <preferred-size width="150" height="-1"/>
@@ -255,7 +255,7 @@
               <grid id="3cbc1" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
                 <margin top="3" left="3" bottom="3" right="3"/>
                 <constraints>
-                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <background color="-15329512"/>
@@ -285,6 +285,16 @@
                   </hspacer>
                 </children>
               </grid>
+              <component id="d204c" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-15329512"/>
+                  <foreground color="-1"/>
+                  <text value="(* is complusory)"/>
+                </properties>
+              </component>
             </children>
           </grid>
           <vspacer id="b1d37">
