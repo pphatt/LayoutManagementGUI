@@ -55,9 +55,16 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GridLayoutManagerIntelliJ">
+  <component name="RunManager" selected="Application.ViewAccount">
     <configuration name="GridLayoutManagerIntelliJ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GridLayoutManagerIntelliJ" />
+      <module name="LayoutManagement" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ViewAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ViewAccount" />
       <module name="LayoutManagement" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,6 +79,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ViewAccount" />
         <item itemvalue="Application.GridLayoutManagerIntelliJ" />
         <item itemvalue="Application.test" />
       </list>
@@ -85,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677125204134</updated>
-      <workItem from="1677125206543" duration="9035000" />
+      <workItem from="1677125206543" duration="12811000" />
     </task>
     <servers />
   </component>

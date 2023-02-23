@@ -61,6 +61,7 @@ public class GridLayoutManagerIntelliJ extends JFrame {
 
                 TestModal testModal = new TestModal(GridLayoutManagerIntelliJ.this);
                 testModal.pack();
+                testModal.setTitle("Confirm");
                 testModal.setVisible(true);
 
                 firstNameField.setText("");
